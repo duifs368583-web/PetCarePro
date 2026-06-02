@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jTOWK3fi/ck=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\GabrielaDuifs\\RiderProjects\\School_proj\\PetCarePro\\PetCarePro.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GabrielaDuifs\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.8\\microsoft.aspnetcore.app.internal.assets.10.0.8.nupkg.sha512",
+    "C:\\Users\\GabrielaDuifs\\.nuget\\packages\\radzen.blazor\\10.4.7\\radzen.blazor.10.4.7.nupkg.sha512"
+  ],
+  "logs": []
+}
