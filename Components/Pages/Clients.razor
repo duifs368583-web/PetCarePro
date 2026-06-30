@@ -1,0 +1,47 @@
+﻿@page "/clients"
+@rendermode InteractiveServer
+@* @using NumberGuesser.Data *@
+@using PetCarePro.Data
+@inject AppDbContext Db
+
+<PageTitle>Clients</PageTitle>
+
+<h1>Clients</h1>
+
+@if (Clients is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table table-striped">
+
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Zipcode</th>
+            <th>City</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var client in Clients)
+        {
+            <tr>
+                <td>@client.Id</td>
+                <td>@client.Name</td>
+                <td>@client.Address</td>
+                <td>@client.Zipcode</td>
+                <td>@client.City</td>
+
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@* <p>Name: @Name</p> *@
+@* <p>Address: @Address</p> *@
+@* <p>Zipcode: @Zipcode</p> *@
+@* <p>City: @City</p> *@

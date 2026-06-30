@@ -1,7 +1,19 @@
 ﻿@page "/"
+@using Radzen
+@using Radzen.Blazor
 
 <PageTitle>PetCarePro</PageTitle>
 
 <h1>PetCarePro</h1>
 
 <p>Waar administratie kwispelt!</p>
+
+<RadzenCard class="rz-my-12 rz-mx-auto rz-p-4 rz-p-md-12" style="max-width: 600px;">
+   
+   @* <RadzenLogin Login="@OnLogin" AllowRegister="false" AllowResetPassword="false" /> *@
+   @* *@
+   @* @if (!string.IsNullOrEmpty(LoginMessage)) *@
+   @* { *@
+   @*    <p>@LoginMessage</p> *@
+   @* } *@
+</RadzenCard>
